@@ -1,12 +1,16 @@
 $(document).ready(function() {
  $("#help").click(function() {
    $(".come").hide(2000)
+    $(".seen").hide(2000)
+     $("footer").hide(2000)
    $(".hide").fadeIn(2000);
  });
 
  $("#home").click(function() {
    $(".hide").hide(2000)
+     $(".seen").fadeIn(2000)
    $(".come").fadeIn(2000);
+    $("footer").fadeIn(2000)
  });
 });
 
@@ -59,7 +63,7 @@ function diceFunction() {
        $("#player1").removeClass("player2turn");
        $("#d2-hold").show();
        $("#d1-hold").hide();
-       document.getElementById("p1ayerscore").innerHTML = 0;
+       document.getElementById("p1ayer1score").innerHTML = 0;
    }
 }
 function dice2Function() {
