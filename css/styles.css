@@ -1,12 +1,31 @@
-h2 {
+
+#images{
+float: right;
+margin-left: 50%;
+}
+#OUTCOMEBASE{
+  padding-left: 20px;
+}
+.img{
+   margin: 0 auto;
+
+}
+.rules p{
+  font-size: 10px;
+}
+.cos{
+  display: none;
+}
+.OUTCOME{
+  display: none;
+}
+.hero{
+  display: none;
+}
+.firstplayer, .secondplayer{
+    border-radius: 5px;
+    padding: 10px;
+}
+.OUTCOMEBASE{
   text-align: center;
-}
-#showing {
-  display: none;
-}
-#showing-d {
-  display: none;
-}
-image {
-   align: center:
 }
