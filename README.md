@@ -11,7 +11,8 @@ Sylviah Rutto
 
 #### Setup Instructions
 1 Ensure you have a web browser in your computer
-2 Ensure you are connected to the internet.
+2 Ensure you are connected to the internet
+
 ---
 
 #### BDD
@@ -21,11 +22,11 @@ Sylviah Rutto
 
 ----
 
-#### Technologies Used
-1 HTML
-2 J-QUERY
-3 CSS
-4 BOOTSTRAP
+#### Technologies Used   
+  1 HTML
+  2 J-QUERY
+  3 CSS
+  4 BOOTSTRAP
 
 ---
 
