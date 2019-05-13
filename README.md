@@ -19,7 +19,7 @@ Sylviah Rutto
 
 ---
 
-#### BD
+#### BDD
 1 The two players will proceed to roll the dice, by generating a random number from 1 to 6.<br>
 2 If the output is not a 1, a player will continue to accumulate points and can hold in his discretion to add up to his/her final tally.<br>
 3 An output of one results in a zero of accumulated points.
@@ -28,17 +28,11 @@ Sylviah Rutto
 
 #### Technologies Used
 1 HTML<br>
-2 J-QUERY<br></br>
+2 J-QUERY<br>
 3 CSS<br
 4 BOOTSTRAP
 
 ---
-1 The two players will proceed to roll the dice, by generating a random number from 1 to 6<br>
-2 If the output is not a 1, a player will continue to accumulate points and can hold in his discretion to add up to his/her final tally<br>
-3 An output of one results in a zero of accumulated points
-
-
-----
 
 #### Technologies Used   
   1 HTML<br>
