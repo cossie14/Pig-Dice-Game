@@ -1,12 +1,10 @@
 # Pig-Dice-Game
-Pig-Dice-Game
-# Delani Studios
 
 
 ---
 
 ## Project Description
-   This a web page that allows the user to view Delani studios website.
+   The Pig-Dice game is a fun game based on two players rolling a dice.
 
 
 
@@ -24,7 +22,15 @@ Sylviah Rutto
     2 Ensure you are connected to the internet.
 
 ---
+#### BDD
+The two players will proceed to roll the dice, by generating a random number from 1 to 6.
 
+If the output is not a 1, a player will continue to accumulate points and can hold in his discretion to add up to his/her final tally.
+
+An output of one results in a zero of accumulated points.
+
+
+---
 #### Technologies Used
     1 HTML
     2 J-QUERY
@@ -34,8 +40,8 @@ Sylviah Rutto
 ----
 
 #### The link to the website
-https://cossie14.github.io/Delani-Studios/       
-
+     
+https://cossie14.github.io/Pig-Dice-Game/
 
 ----
 
