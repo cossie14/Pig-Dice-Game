@@ -2,19 +2,25 @@
 
 ##  Project Description
 The Pig-Dice game is a fun game based on two players rolling a dice
-
+ 
+ ---
 ## Author
 
 Sylviah Rutto
 
+
 ---
 
 #### Setup Instructions
-1 Ensure you have a web browser in your computer
-2 Ensure you are connected to the internet.
+1  Ensure you have a web browser in your computer<br>
+2  Ensure you are connected to the internet
+
+
+
 ---
 
 #### BDD
+<<<<<<< HEAD
 1 The two players will proceed to roll the dice, by generating a random number from 1 to 6.<br>
 2 If the output is not a 1, a player will continue to accumulate points and can hold in his discretion to add up to his/her final tally.<br>
 3 An output of one results in a zero of accumulated points.
@@ -26,12 +32,30 @@ Sylviah Rutto
 2 J-QUERY<br></br>
 3 CSS<br>
 4 BOOTSTRAP
+=======
+1 The two players will proceed to roll the dice, by generating a random number from 1 to 6<br>
+2 If the output is not a 1, a player will continue to accumulate points and can hold in his discretion to add up to his/her final tally<br>
+3 An output of one results in a zero of accumulated points
+
+
+----
+
+#### Technologies Used   
+  1 HTML<br>
+  2 J-QUERY<br>
+  3 CSS<br>
+  4 BOOTSTRAP
+  
+>>>>>>> 7893ba5dbb4aac7bf6a5e28ed313541768c3695a
 
 ---
 
+
 #### The link to the website
 
+----
 https://cossie14.github.io/Pig-Dice-Game/
+
 
 ----
 
