@@ -7,7 +7,7 @@ h1,h3{
   text-align: center;
 }
 
-.container-fluid{
+body{
   background-image: url("img/bkr.gif");
   background-position: center;
   background-attachment: fixed;
@@ -18,4 +18,12 @@ h1,h3{
   text-align: center;
   font-family: 'Baloo Bhai', cursive;
    display: none;
+}
+
+.cosy,footer{
+  text-align: center;
+}
+
+.fa fa-home{
+  background-color: blue;
 }

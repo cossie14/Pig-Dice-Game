@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.0.js"></script>
     <script src="js/scripts.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   </head>
   <body>
@@ -16,8 +17,9 @@
           <div class="hide">
               <h3>GAME-RULES</h3>
                 <p>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold".If the player rolls a 1, they score nothing and it becomes the next player's turn.the player rolls any other number, it is added to their turn total and the player's turn continues.If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.Pig dice is a simple game that's commonly used by mathematics teachers to teach probability concepts</p>
+                <button type="button"id="home"class="fa fa-home" name="button"></button>
               </div>
-              <div class="come">
+          <div class="come">
              <div class="container">
                      <div class="row">
                          <div class="col-sm-6">
@@ -30,6 +32,7 @@
                                  </div>
                                </div>
                              </div>
+                             </div>
 
 
                                                  <div class="col-sm-6">
@@ -41,17 +44,18 @@
                                                      </div>
                                                    </div>
                                                </div>
-                                             </div>
-                                           </div>
+
+                                         </div>
+                                       </div>
                                            <div class="cosy">
-                                                        <img id="cosita" src="img/dice1.png" alt="">
+                                                        <img id="cosita" src="img/dice1.png" id="results" alt="">
                                                         <h2> <span class="player"></span></h2>
-                                                        <button id="rollthedice"type="button" class="btn btn-success">Roll Dice</button>
+                                                        <button id="rollthedice" onclick= myFunction()  type="button" class="btn btn-success">Roll</button>
                                                         <button id="help"type="button" class="btn4 btn-success">help!</button>
                                                         <button id="pass" type="button" class="btn btn-warning">Pass</button>
-                                                      </div>
-                                                          </div>
-        <footer>&copypig-Dice.games</footer>
-       </div>
+                                                      </div> <br><br>
+</div>
+</div>
+<footer>&copy@pig-dice-game</footer>
    </body>
 </html>
