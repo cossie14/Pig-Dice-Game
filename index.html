@@ -49,12 +49,68 @@
                                            <div class="cosy">
                                                         <img id="cosita" src="img/dice1.png" id="results" alt="">
                                                         <h2> <span class="player"></span></h2>
-                                                        <button id="rollthedice" onclick= myFunction()  type="button" class="btn btn-success">Roll</button>
                                                         <button id="help"type="button" class="btn4 btn-success">help!</button>
-                                                        <button id="pass" type="button" class="btn btn-warning">Pass</button>
                                                       </div> <br><br>
 </div>
 </div>
+
+
+
+
+
+<div class="play">
+       <div class="row" id="dicing">
+         <div class="col-md-6" id="dicing1">
+           <h3>Player1</h3>
+           <h3 id="player1score"></h3>
+         </div>
+         <div class="col-md-6" id="player2">
+           <h3>Player 2</h3>
+           <h3 id="player2score"></h3>
+         </div>
+       </div>
+       <div class="row" id="cosy">
+         <div class="col-md-6" id="red" >
+           <div class="cosy1" >
+             <p id="dice1"></p>
+             <p id="dice2"></p>
+             <p id="final"></p>
+           </div>
+         </div>
+         <div class="col-md-6" id="game">
+           <div class="gametwo">
+             <p id="dice3"></p>
+             <p id="dice4"></p>
+             <p id="final2"></p>
+           </div>
+         </div>
+       </div>
+       <div class="row" id="button">
+         <div class="col-md-2"></div>
+         <div class="col-md-4">
+           <button id="d1-roll" type="button" class="btn btn-danger" onclick="diceFunction()" name="button">Roll Dice</button>
+           <button id="d1-hold" type="button" class="btn btn-success" name="button"  >Hold</button>
+         </div>
+         <div class="col-md-2"></div>
+         <div class="col-md-4">
+           <button id="d2-roll" type="button" class="btn btn-danger" onclick="dice2Function()" name="button">Roll Dice</button>
+           <button id="d2-hold" type="button" class="btn btn-success" name="button"  >Hold</button>
+         </div>
+       </div>
+       <div class="row" id="result">
+         <div class="col-md-6">
+           <p>Player 1 Score</p>
+           <p id="d1held"></p>
+         </div>
+         <div class="col-md-6">
+           <p>Player 2 Score</p>
+           <p id="d2held"></p>
+         </div>
+       </div>
+       <button id="reset" type="button" class="btn btn-warning" name="button" onclick="resetGame()">Reset Game</button>
+   </div>
+ </div>
+
 <footer>HURRAY!</footer>
    </body>
 </html>
