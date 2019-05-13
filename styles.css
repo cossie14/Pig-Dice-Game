@@ -1,0 +1,21 @@
+h1,h3{
+  text-align: center;
+  font-family: 'Baloo Bhai', cursive;
+
+}
+.come{
+  text-align: center;
+}
+
+.container-fluid{
+  background-image: url("img/bkr.gif");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hide{
+  text-align: center;
+  font-family: 'Baloo Bhai', cursive;
+   display: none;
+}

@@ -1,91 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.0.js"></script>
     <script src="js/scripts.js"></script>
-    <title> Pig Dice Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+
   </head>
   <body>
-    <div class="container">
-    <div class="jumbotron">
-    <h1>A Pig Dice Game</h1>
-    <p>Pig dice is a simple game that's commonly used by mathematics teachers to teach probability concepts</p>
-    <div class="row">
-    <div class="col-md-4">
-      <h3>Play against:</h3>
-           <div class="guy1">
-             <div class="guy2">
-                 <label><input type="radio" id="sly" name="optradio" value="sly" checked="checked"><img id="cossie" src="img/comp.png" alt=""> <p>sly</p></label>
-               </div>
-               <div class="Cossie1">
-                 <label><input type="radio" id="gal" name="optradio" value="gal"><img id="galfie"  src="img/us.png" alt=""><p>gal</p></label>
-               </div>
-           </div>
-           <button id="gal1" type="button" class="btn btn-primary" width = "20">start game</button>
-         </div>
-         <div class="col-sm-4">
-           <div class="sylviah">
-             <img src="img/biggie.png" alt="">
-             <div class="row">
-               <div class="col-md-3">
-                 <img src="img/direction.gif" alt="">
-               </div>
-               <div class="col-md-9">
-                 <p>Choose your Opponent</p>
-                 <p>and Start the Game</p>
-               </div>
-             </div>
-           </div>
-           <div class="cosy">
-             <img id="cosita" src="img/dice1.png" alt="">
-             <h2> <span class="player"></span></h2>
-             <button id="rollthedice"type="button" class="btn btn-success">Roll Dice</button>
-             <button id="pass" type="button" class="btn btn-warning">Pass</button>
-           </div>
-           <div class="hero">
-             <h2>Our champion </h2>
-             <p><h2><span class="champion"></span></h2></p>
-             <h3>Thumbs up!</h3>
-           </div>
-         </div>
-         <div class=" col-sm-4">
-           <div class="RULES">
-             <h3 >How to Play </h3>
-             <h4>Objective</h4>
-             <p>
-               The objective of Pig Dice Game is to score 100 points before the opponent(s) do(es). The game is played with a single six-sided die.
-             </p>
-             <h4>
-               <br />
-             Gameplay</h4>
-             <p>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold"<p/>
+    <div class="container-fluid  ">
+          <h1>A Pig Dice Game</h1>
+          <div class="hide">
+              <h3>GAME-RULES</h3>
+                <p>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold".If the player rolls a 1, they score nothing and it becomes the next player's turn.the player rolls any other number, it is added to their turn total and the player's turn continues.If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.Pig dice is a simple game that's commonly used by mathematics teachers to teach probability concepts</p>
+              </div>
+              <div class="come">
+             <div class="container">
+                     <div class="row">
+                         <div class="col-sm-6">
+                          <div class="guy1">
+                             <div class="guy2">
+                                 <label><input type="radio" id="sly" name="optradio" value="sly" checked="checked"><img id="cossie" src="img/comp.png" alt=""> <p>sly</p></label>
+                                 <div class="sly">Rollscore
+                                 </div>
+                                 <div class="sly">Totalscore
+                                 </div>
+                               </div>
+                             </div>
 
-               <p>If the player rolls a 1, they score nothing and it becomes the next player's turn.</p>
-               <p>If the player rolls any other number, it is added to their turn total and the player's turn continues.</p>
-               <p>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</p>
-             </p>
-           </div>
-         </div>
-         <div class="OUTCOME">
-           <h2 id="OUTCOMEBASE">Score Board</h2>
-           <div class="col-md-6">
-             <img id="cosy" src="img/3.png" alt="">
-             <p><h3><span class="first player"></span></h3></p>
-             <h2><span class="firstplayerscore"></span></h2>
-           </div>
-           <div class="col-md-6">
-             <img id="cosy1" src="img/com.png" alt="">
-             <p><h3><span class="second player"></span></h3></p>
-             <h2><span class="secondplayerscore"></span></h2>
-           </div>
-           <h1>Scores<span class="finalscore"></span></h1>
-         </div>
+
+                                                 <div class="col-sm-6">
+                                                   <div class="Cossie1">
+                                                     <label><input type="radio" id="gal" name="optradio" value="gal"><img id="galfie"  src="img/us.png" alt=""><p>gal</p></label>
+                                                     <div class="sly">Rollscore
+                                                     </div>
+                                                     <div class="sly">Totalscore
+                                                     </div>
+                                                   </div>
+                                               </div>
+                                             </div>
+                                           </div>
+                                           <div class="cosy">
+                                                        <img id="cosita" src="img/dice1.png" alt="">
+                                                        <h2> <span class="player"></span></h2>
+                                                        <button id="rollthedice"type="button" class="btn btn-success">Roll Dice</button>
+                                                        <button id="help"type="button" class="btn4 btn-success">help!</button>
+                                                        <button id="pass" type="button" class="btn btn-warning">Pass</button>
+                                                      </div>
+                                                          </div>
+        <footer>&copypig-Dice.games</footer>
        </div>
-
-     </div>
    </body>
-   </html>
+</html>
