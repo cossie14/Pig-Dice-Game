@@ -12,7 +12,7 @@ Sylviah Rutto
 ---
 
 #### Setup Instructions
-1  Ensure you have a web browser in your computer<br.
+1  Ensure you have a web browser in your computer<br>
 2  Ensure you are connected to the internet
 
 
